@@ -1,0 +1,29 @@
+.contenedor {
+    margin: 3em;
+    flex-wrap: wrap;
+}
+.titulo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.imagen img{
+    height: 500px;
+    margin-top: 1em;
+
+}
+.imagen p{
+    text-align: center;
+}
+.parrafo p{
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 1em;
+    text-align: justify;
+    font-size: large;
+}
+footer{
+    text-align: center;
+    font-size: x-large;
+    background-color: aqua;
+    padding: 1em;
+    flex-wrap: wrap;
+}
