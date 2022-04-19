@@ -3,10 +3,10 @@
     flex-wrap: wrap;
 }
 .titulo{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .imagen img{
-    height: 500px;
+    height: 600px;
     margin-top: 1em;
 
 }
@@ -21,9 +21,9 @@
     font-size: large;
 }
 footer{
-    text-align: center;
-    font-size: x-large;
-    background-color: aqua;
+    background-color: black;
     padding: 1em;
-    flex-wrap: wrap;
+    color: white;
+    text-align: left;
 }
+

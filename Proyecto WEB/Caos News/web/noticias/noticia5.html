@@ -4,24 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../img/Logo Caos News.png">
     <title>Document</title>
     <link rel="stylesheet" href="../../css/estiloNoticias.css">
+    <link rel="stylesheet" href="../../libs/BootStrap/css/bootstrap.min.css">
 </head>
 <body>
+    <!-- Barra de Navegacion -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="../img/Logo Caos News.png" alt="" width="40" height="40" class="d-inline-block align-text-top">
+            Caos News</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../web/Galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../web/Contacto.html">Contacto</a>
+            </li>
+            </ul>
+            <form class="d-flex offset-7">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item ">
+                <a class="nav-link active" aria-current="page" href="../web/Login.html">Login</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="../web/Registro.html">Registro</a>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <!-- parrafo -->
     <div class="contenedor">
         <div class="titulo">
             <h1>Duoc UC y UNESCO-UNEVOC, unidos por la Educación Técnico Profesional en Chile</h1>
         </div>
         <div class="datos">
-            Publicado por : Camilo Santander <br>
-            Fecha de publicacion : 14/04/2022 <br>
+            Publicado por : Jorge Tapia <br>
+            Fecha de publicacion : 24/02/2022 <br>
             Categoria : Nacional
         </div>
         <div class="imagen">
             <p><img src="../../img/header_alumnos-1.jpg" alt=""></p>
         </div>
         <div class="parrafo">
-            <h3 style="text-align: justify; margin-left: 5em; margin-right: 5em; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+            <h3 style="text-align: justify; margin-left: 4em; margin-right: 5em; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
                 Nuestra institución fue la primera del país en unirse a UNESCO-UNEVOC. Esto significa una enorme contribución a la formación técnica y profesional en el país, impulsando competencias para la empleabilidad y el acceso universal a programas formativos de alta calidad.
             </h3>
             <p>
@@ -37,14 +77,12 @@
             </p>
         </div>
     </div>
-    <div class="card" style="background-color:black;color: white;text-align:center;margin-top: 35px; padding: 10px ;">
-        <div class="card-body">
-        <h1 style="text-align: left; left: 20%;">Más Información</h1>
-          <li style="text-align: left;">caosnews@gmail.com</li>
-          <li style="text-align: left;">(2)2348719750</li>
-          <li style="text-align: left;">+56945713008</li>
-          <li style="text-align: left;">Décima Avenida 1226, San Miguel, Región Metropolitana</li>
-        </div>
-      </div>
+    <footer>
+        <h1>Más Información</h1>
+        <li>caosnews@gmail.com</li>
+        <li>(2)2348719750</li>
+        <li>+56945713008</li>
+        <li>Décima Avenida 1226, San Miguel, Región Metropolitana</li>
+    </footer>
 </body>
 </html>
