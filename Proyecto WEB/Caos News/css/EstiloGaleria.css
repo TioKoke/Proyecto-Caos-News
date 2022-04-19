@@ -28,3 +28,7 @@
     filter: blur(10px);
     z-index: -1;
 }
+
+.separador{
+    margin: 5%;
+}
