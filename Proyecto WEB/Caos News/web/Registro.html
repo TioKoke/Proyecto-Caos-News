@@ -1,41 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../img/Logo Caos News.png">
-    <title>Login</title>
-    <!-- Libreria Bootstrap CSS-->
-    <link rel="stylesheet" href="../libs/BootStrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/Estilos.css">
-</head>
-<body style="background-image: url(../img/login\ \(2\).jpeg); ">
-    <!--        logo         -->
-    <div style="padding: 2em;">
-      <img src="../img/Logo Caos News.png" alt="" style="width: 100px; height: 100px;">
-    </div>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Login Form Design One | Fazt</title>
+    <link rel="stylesheet" href="../css/registro.css">
+  </head>
+  <body>
 
-    <!--       login         -->
-    <form style="margin-left: 8em; margin-right: 8em; border: black solid; padding: 4em; background-color: antiquewhite;">
-        <div style="text-align: center; "><h1>Registro</h1></div>
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Correo electronico</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        </div>
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Nombre de usuario</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <a class="btn btn-primary" href="Home.html" role="button">registrarse</a>
+    <div class="login-box">
+      <img src="../img/Logo Caos News.png" class="avatar" alt="Avatar Image">
+      <h1>Registro</h1>
+      <form>
+        <!-- correo -->
+        <label for="username">Correo electronico</label>
+        <input type="text" placeholder="Escribir correo">
+        <!-- usuario -->
+        <label for="username">Nombre de usuario</label>
+        <input type="text" placeholder="Escribir usuario">
+        <!-- contraseña -->
+        <label for="password">Contraseña</label>
+        <input type="password" placeholder="Escribir contraseña">
+        <a href="Login.html"><input type="button" value="Registrarse"></a>
       </form>
-
-
-    <!--Libreria Bootstrap JS-->
-    <script src="../libs/BootStrap/js/bootstrap.bundle.min.js"></script>
-</body>
+    </div>
+  </body>
 </html>
