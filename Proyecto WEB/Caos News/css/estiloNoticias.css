@@ -5,11 +5,13 @@
 }
 .imagen img{
     width: 750px;
+    box-shadow: 0px 1px 10px gray;
 }
-.imagen {
+.imagen p{
     text-align: justify;
     font-size: x-large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 1em;
 }
 .parrafo p{
     margin-left: 4em;
@@ -50,10 +52,37 @@
     color: #fff;
     font-size: 18px;
     width: 400px;
+    margin-top: 2em;
+    box-shadow: 0px 1px 10px gray;
+}
+.contenedorI input[type="submit1"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: cornflowerblue;
+    color: #fff;
+    font-size: 18px;
+    width: 400px;
+    margin-top: 2em;
+    text-align: center;
+    box-shadow: 0px 1px 10px gray;
+}
+.contenedorI input[type="submit3"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: cornflowerblue;
+    color: #fff;
+    font-size: 18px;
+    width: 180px;
+    margin-top: 2em;
+    text-align: center;
 }
 .contenedorI .col-lg-4 .card{
-    height: 200px;
+    height: 250px;
     width: 250px;
+    box-shadow: 0px 1px 10px gray;
+    overflow: hidden;
 }
 
 .contenedorI .col-lg-4{
@@ -62,6 +91,20 @@
 
 .contenedorI .col-lg-4 .card img{
     width: 80%;
-    height: 100px;
+    height: 120px;
     margin-left: 10%;
+    padding-top: 1em;
+}
+.contenedorI .card img{
+    width: 80%;
+    height: 150px;
+    margin-left: 10%;
+    padding-top: 1em;
+}
+.contenedorI .card {
+    margin-top: 2em;
+    box-shadow: 0px 1px 10px gray;
+}
+footer{
+    margin-top: 2em;
 }
