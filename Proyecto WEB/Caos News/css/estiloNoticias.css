@@ -1,24 +1,110 @@
-.contenedor {
-    margin: 3em;
-    flex-wrap: wrap;
-}
+
 .titulo{
     font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 2em;
 }
 .imagen img{
-    height: 600px;
-    margin-top: 1em;
-
+    width: 750px;
+    box-shadow: 0px 1px 10px gray;
 }
 .imagen p{
-    text-align: center;
+    text-align: justify;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 1em;
 }
 .parrafo p{
-    margin-left: 5em;
-    margin-right: 5em;
+    margin-left: 4em;
     margin-top: 1em;
     text-align: justify;
-    font-size: large;
+    font-size: medium;
+}
+.contenedorP{
+    width: 750px;
+    margin-top: 2em;
+    
+}
+.contenedor {
+    width: 1200px;
+    margin: auto;
+}
+.contenedorI{
+    width: 400px;
+    float: right;
+
+}
+.contenedorI img{
+    width: 50px;
+    height: 50px;
+
+}
+.contenedorT {
+    width: 1200px;
+    margin: auto;
+
 }
 
+.contenedorI input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #b80f22;
+    color: #fff;
+    font-size: 18px;
+    width: 400px;
+    margin-top: 2em;
+    box-shadow: 0px 1px 10px gray;
+}
+.contenedorI input[type="submit1"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: cornflowerblue;
+    color: #fff;
+    font-size: 18px;
+    width: 400px;
+    margin-top: 2em;
+    text-align: center;
+    box-shadow: 0px 1px 10px gray;
+}
+.contenedorI input[type="submit3"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: cornflowerblue;
+    color: #fff;
+    font-size: 18px;
+    width: 180px;
+    margin-top: 2em;
+    text-align: center;
+}
+.contenedorI .col-lg-4 .card{
+    height: 250px;
+    width: 250px;
+    box-shadow: 0px 1px 10px gray;
+    overflow: hidden;
+}
 
+.contenedorI .col-lg-4{
+    margin-top: 2em;
+}
+
+.contenedorI .col-lg-4 .card img{
+    width: 80%;
+    height: 120px;
+    margin-left: 10%;
+    padding-top: 1em;
+}
+.contenedorI .card img{
+    width: 80%;
+    height: 150px;
+    margin-left: 10%;
+    padding-top: 1em;
+}
+.contenedorI .card {
+    margin-top: 2em;
+    box-shadow: 0px 1px 10px gray;
+}
+footer{
+    margin-top: 2em;
+}
