@@ -64,4 +64,14 @@
     z-index: -1;
 }
 
+.cate{
+    width: 15%;
+    height: 15%;
+    margin: auto;
+}
 
+.cate h5{
+    font-size: 70%;
+    text-align: center;
+    margin: auto;
+}
