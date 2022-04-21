@@ -1,88 +1,66 @@
 body {
-    margin: 0;
-    padding: 0;
-    background: url(../img/bg.jpeg) no-repeat center top;
-    background-size: cover;
-    font-family: sans-serif;
-    height: 100vh;
-    background-color: bisque;
-  }
-  
-  .login {
-    width: 800px;
-    height: 420px;
-    background: #000;
-    color: #fff;
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    box-sizing: border-box;
-    padding: 80px 40px;
-    border-radius: 20px;
-  }
-  
-  .login .avatar {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    position: absolute;
-    top: -50px;
-    left: calc(50% - 50px);
-  }
-  
-  .login h1 {
-    margin: 0;
-    padding: 0 0 20px;
-    text-align: center;
-    font-size: 22px;
-  }
-  
-  .login label {
-    margin: 0;
-    padding: 0;
-    font-weight: bold;
-    display: block;
-  }
-  
-  .login input {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  
-  .login input[type="text"], .login input[type="password"] {
-    border: none;
-    border-bottom: 1px solid #fff;
-    background: transparent;
-    outline: none;
-    height: 40px;
-    color: #fff;
-    font-size: 16px;
-  }
-  
-  .login input[type="button"] {
-    border: none;
-    outline: none;
-    height: 40px;
-    background: #b80f22;
-    color: #fff;
-    font-size: 18px;
-    border-radius: 20px;
-  }
-  
-  .login input[type="button"]:hover {
-    cursor: pointer;
-    background: #ffc107;
-    color: #000;
-  }
-  
-  .login a {
-    text-decoration: none;
-    font-size: 12px;
-    line-height: 20px;
-    color: darkgrey;
-  }
-  
-  .login a:hover {
-    color: #fff;
-  }
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+.login {
+  margin-top: 2em;
+  width: 1000px;
+  height: 550px;
+  color: #fff;
+  margin: auto;
+  background-color: beige;
+  padding: 2em;
+
+}
+
+.login h1 {
+  margin-top: 3em;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+  color: #000;
+}
+
+.login label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+  color: #000;
+}
+
+.login input {
+  width: 100%;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.login input[type="text"], .login input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #000;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: rgb(3, 3, 3);
+  font-size: 16px;
+}
+
+.login input[type="button"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #b80f22;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.login input[type="button"]:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
